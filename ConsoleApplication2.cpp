@@ -5,7 +5,7 @@
 #include "iostream"
 #include "time.h"
 #include <iomanip>
-#include <cstdlib>
+#include <cstdlib> 
 
 using namespace std;
 
@@ -13,7 +13,7 @@ int _tmain(int argc, _TCHAR* argv[])
 {
 
 		int A[3][3];
-		cout << "----------Matrix #1----------" << endl;
+		cout << "*********Matrix #1**********" << endl;
 		srand(time(NULL));
 		for (int i = 1; i < 4; i++)
 		{
@@ -24,7 +24,7 @@ int _tmain(int argc, _TCHAR* argv[])
 			}
 			cout << endl;
 		}
-		cout << "----------Matrix #2----------" << endl;
+		cout << "***********Matrix #2----------" << endl;
 		int max = A[1][1];
 		for (int i = 1; i < 4; i++)
 		{
